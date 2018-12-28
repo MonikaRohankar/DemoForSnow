@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Primary_view</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-28 10:33:02</sys_created_on>
+        <sys_id>5f00251bdb6e2300fcf8e04a4896194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Primary view</sys_name>
+        <sys_package display_value="Monika_dhanrkar" source="x_289082_monika_dh">380e888bdb222300fcf8e04a48961942</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monika_dhanrkar">380e888bdb222300fcf8e04a48961942</sys_scope>
+        <sys_update_name>sys_ui_view_5f00251bdb6e2300fcf8e04a4896194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-28 10:33:02</sys_updated_on>
+        <title>Primary view</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

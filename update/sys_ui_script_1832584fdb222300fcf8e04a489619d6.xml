@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_289082_monika_dh.Sample</name>
+        <script><![CDATA[var x_289082_monika_dh = x_289082_monika_dh || {};
+
+x_289082_monika_dh.Sample = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_289082_monika_dh.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_289082_monika_dh.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "Sample"
+	};
+})();
+]]></script>
+        <script_name>Sample</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-27 10:15:20</sys_created_on>
+        <sys_id>1832584fdb222300fcf8e04a489619d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_289082_monika_dh.Sample</sys_name>
+        <sys_package display_value="Monika_dhanrkar" source="x_289082_monika_dh">380e888bdb222300fcf8e04a48961942</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monika_dhanrkar">380e888bdb222300fcf8e04a48961942</sys_scope>
+        <sys_update_name>sys_ui_script_1832584fdb222300fcf8e04a489619d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-27 10:15:20</sys_updated_on>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+</record_update>

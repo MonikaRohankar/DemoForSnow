@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Attendee</name>
+        <order>100</order>
+        <roles>x_289082_monika_dh.attendee_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-12-27 10:11:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea71104fdb222300fcf8e04a4896195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attendee</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Monika_dhanrkar" source="x_289082_monika_dh">380e888bdb222300fcf8e04a48961942</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Monika_dhanrkar">380e888bdb222300fcf8e04a48961942</sys_scope>
+        <sys_update_name>sys_app_application_ea71104fdb222300fcf8e04a4896195c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-27 10:11:15</sys_updated_on>
+        <title>Attendee</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

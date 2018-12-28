@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_289082_monika_dh_needit" type="collection">
+        <element label="columnName" max_length="40" name="columnname" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="hr" label="Request type" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element label="Human Resources" sequence="0" value="hr"/>
+                <element label="Facilities" sequence="1" value="facilities"/>
+                <element label="Legal" sequence="2" value="legal"/>
+                <element label="IT" sequence="3" value="it"/>
+                <element label="ITSM" sequence="4" value="itsm"/>
+            </choice>
+        </element>
+        <element label="Date" mandatory="true" max_length="40" name="u_glide_date_3" type="glide_date"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_reference_4" reference="x_289082_monika_dh_needit" type="reference"/>
+    </element>
+</database>
