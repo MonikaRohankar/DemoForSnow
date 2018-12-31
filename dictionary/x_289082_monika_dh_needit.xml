@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_289082_monika_dh_needit" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="NeedIt" max_length="40" name="x_289082_monika_dh_needit" sizeclass="2" type="collection">
         <element label="columnName" max_length="40" name="columnname" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr" label="Request type" max_length="40" name="u_choice_5" type="string">
             <choice>
